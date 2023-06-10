@@ -1,38 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Decentralized Autonomous Lottery (DAL)
+Demo: https://my-dal.vercel.app/
+<br>
+Link to backend: https://github.com/StroupZ/Decentralized-Autonomous-Lottery-Backend
+<br><br>
+This is DAL... short for Decentralized Autonomous Lottery. DAL is a lottery dApp which, once deployed, initiates and concludes raffles in succession over a predetermined period of time. DAL is currently deployed to the Goerli Testnet, enabling its decentralization, transparency, and immutability. As a user, one would simply need a Web3 wallet such as Metamask, connected to the network containing the lottery (Goerli Testnet in this case). At this point, the user could enter the lottery by clicking the corresponding button, being sure to have enough currency in their wallet to cover the entry fee. A countdown timer displays when the next drawing will be and information such as the entry fee, number of entrants, current jackpot, and previous winner are on display for the user. Once the time is up, new entries will be temporarily suspended while maintenance is performed by Chainlink Automation. During this time, Chainlink VRF is utilized to draw a lucky winner in a way that is verifiably random. Following this, the jackpot will be automatically deposited into the winner's wallet and a new lottery will begin accepting entries with its corresponding countdown timer.
+<br><br>
+## Tech Stack
+- JavaScript for writing scripts/general
+- React for UI
+- Next.js for deployment
+- Vercel for deployment
+- Tailwind CSS for styling
+- Web3UIKit for styling
+- Moralis for Web3
+- Chainlink Automation for maintenance
+- Chainlink VRF for verifiable randomness
+<br><br>
+## Use
+1. Follow the steps [here](https://github.com/StroupZ/Decentralized-Autonomous-Lottery-Backend) for initializing the backend.
+2. Clone this repo.
+3. Run `yarn add` to install all dependencies.
+4. Make sure to add your contract ABI to abi.json in the constants folder.
+5. Make sure to add your contract address to contractAddresses.json in the constants folder.
+6. Run `yarn run dev` and open your localhost in your browser.
+7. Make sure you have a Web3 wallet such as Metamask to interact with the lottery.
+<br><br>
+## Faucets
+- [Goerli ETH](https://goerlifaucet.com/)
+- [Goerli LINK](https://faucets.chain.link/goerli)
+<br><br>
+## Showcase
+DAL Display
+![dal-image](https://github.com/StroupZ/Decentralized-Autonomous-Lottery/assets/119818799/8b602685-970c-47ed-81ee-e4f96af6b76a)
+<br><br>
+DAL About
+![dal-about](https://github.com/StroupZ/Decentralized-Autonomous-Lottery/assets/119818799/3b92dd4b-1aab-4b6f-ba35-fc032ee4e8d8)
+<br><br>
+DAL Connect
+![dal-connect](https://github.com/StroupZ/Decentralized-Autonomous-Lottery/assets/119818799/b9ccadc2-6278-45c8-8fb6-caaa24aae3da)
