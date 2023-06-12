@@ -20,8 +20,8 @@ This is DAL... short for Decentralized Autonomous Lottery. DAL is a lottery dApp
 1. Follow the steps [here](https://github.com/StroupZ/Decentralized-Autonomous-Lottery-Backend) for initializing the backend.
 2. Clone this repo.
 3. Run `yarn add` to install all dependencies.
-4. Make sure to add your contract ABI to abi.json in the constants folder.
-5. Make sure to add your contract address to contractAddresses.json in the constants folder.
+4. Make sure to add your contract ABI to `abi.json` in the constants folder.
+5. Make sure to add your contract address to `contractAddresses.json` in the constants folder.
 6. Run `yarn run dev` and open your localhost in your browser.
 7. Make sure you have a Web3 wallet such as Metamask to interact with the lottery.
 <br><br>
