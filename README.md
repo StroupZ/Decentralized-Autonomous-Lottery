@@ -3,7 +3,7 @@ Demo: https://my-dal.vercel.app/
 <br>
 Link to backend: https://github.com/StroupZ/Decentralized-Autonomous-Lottery-Backend
 <br><br>
-This is DAL... short for Decentralized Autonomous Lottery. DAL is a lottery dApp which, once deployed, initiates and concludes raffles in succession over a predetermined period of time. DAL is currently deployed to the Goerli Testnet, enabling its decentralization, transparency, and immutability. As a user, one would simply need a Web3 wallet such as Metamask, connected to the network containing the lottery (Goerli Testnet in this case). At this point, the user could enter the lottery by clicking the corresponding button, being sure to have enough currency in their wallet to cover the entry fee. A countdown timer displays when the next drawing will be and information such as the entry fee, number of entrants, current jackpot, and previous winner are on display for the user. Once the time is up, new entries will be temporarily suspended while maintenance is performed by Chainlink Automation. During this time, Chainlink VRF is utilized to draw a lucky winner in a way that is verifiably random. Following this, the jackpot will be automatically deposited into the winner's wallet and a new lottery will begin accepting entries with its corresponding countdown timer.
+This is DAL... short for Decentralized Autonomous Lottery. DAL is a lottery dApp which, once deployed, initiates and concludes raffles in succession over a predetermined period of time. DAL is currently deployed to the Sepolia Testnet, enabling its decentralization, transparency, and immutability. As a user, one would simply need a Web3 wallet such as Metamask, connected to the network containing the lottery (Sepolia Testnet in this case). At this point, the user could enter the lottery by clicking the corresponding button, being sure to have enough currency in their wallet to cover the entry fee. A countdown timer displays when the next drawing will be and information such as the entry fee, number of entrants, current jackpot, and previous winner are on display for the user. Once the time is up, new entries will be temporarily suspended while maintenance is performed by Chainlink Automation. During this time, Chainlink VRF is utilized to draw a lucky winner in a way that is verifiably random. Following this, the jackpot will be automatically deposited into the winner's wallet and a new lottery will begin accepting entries with its corresponding countdown timer.
 <br><br>
 ## Tech Stack
 - JavaScript for writing scripts/general
@@ -26,8 +26,8 @@ This is DAL... short for Decentralized Autonomous Lottery. DAL is a lottery dApp
 7. Make sure you have a Web3 wallet such as Metamask to interact with the lottery.
 <br><br>
 ## Faucets
-- [Goerli ETH](https://goerlifaucet.com/)
-- [Goerli LINK](https://faucets.chain.link/goerli)
+- [Sepolia ETH](https://www.alchemy.com/faucets/ethereum-sepolia)
+- [Sepolia LINK](https://faucets.chain.link/sepolia)
 <br><br>
 ## Showcase
 DAL Display

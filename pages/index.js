@@ -45,7 +45,7 @@ export default function Home() {
                                 <div className="flex justify-center mb-48">
                                     <div className="flex text-center text-xl text-blue-500 mt-36 bg-[#f5f7fd] shadow-md py-5 px-14 border-t-[#dfe7fb] border-l-[#dfe7fb] border-b-[#a0b3f2] border-r-[#a0b3f2] border-4 font-textMeOne italic">
                                         Network not currently supported...<br></br>Please switch to
-                                        Goerli Testnet
+                                        Sepolia Testnet
                                     </div>
                                 </div>
                             )
