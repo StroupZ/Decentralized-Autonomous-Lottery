@@ -3,6 +3,7 @@ import { Modal } from "web3uikit"
 export default function About({ showAbout, onClose }) {
     return (
         <Modal
+            onClick={onClose}
             id="AboutModal"
             hasFooter={false}
             isVisible={showAbout}
@@ -10,7 +11,7 @@ export default function About({ showAbout, onClose }) {
             onCloseButtonPressed={onClose}
             customize={{ className: "bg-red-500" }}
             title={
-                <div className="flex flex-grow text-3xl font-bungeeHairline font-bold text-center justify-center text-blue-500">
+                <div className="mt-64 min-[450px]:mt-2 flex flex-grow text-3xl font-bungeeHairline font-bold text-center justify-center text-blue-500">
                     Hi! I'm DAL...
                 </div>
             }

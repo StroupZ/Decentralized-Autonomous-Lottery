@@ -7,7 +7,7 @@
 
 @layer components {
     .info {
-        @apply font-textMeOne bg-[#f5f7fd] text-slate-500 p-4 flex-1 border-t-[#dfe7fb] border-l-[#dfe7fb] border-b-[#a0b3f2] border-r-[#a0b3f2] border-4;
+        @apply font-textMeOne bg-[#f5f7fd] text-slate-500 p-1 min-[450px]:p-4 flex-1 border-t-[#dfe7fb] border-l-[#dfe7fb] border-b-[#a0b3f2] border-r-[#a0b3f2] border-4;
     }
 
     .info-container {

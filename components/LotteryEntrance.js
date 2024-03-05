@@ -118,7 +118,7 @@ export default function LotteryEntrance({ closed, updateUi }) {
                             </div>
                             <div className="info">
                                 <h2 className="text-l text-left italic">Recent Winner</h2>
-                                <p className="text-2xl font-bold px-16 font-bungeeHairline text-blue-500">
+                                <p className="text-2xl font-bold px-8 min-[450px]:px-16 font-bungeeHairline text-blue-500">
                                     {recentWinner.slice(0, 6)}...
                                     {recentWinner.slice(recentWinner.length - 4)}
                                 </p>

@@ -88,7 +88,7 @@ export default function Clock({ setClosed, setUpdateUi }) {
         )
     } else {
         return (
-            <div>
+            <div className="mb-28 min-[450px]:mb-2">
                 <h2 className="text-blue-500 font-textMeOne italic text-center ">
                     Time Remaining Until Drawing
                 </h2>
